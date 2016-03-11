@@ -1,6 +1,6 @@
 # deep-stub
 
-function deepStubObject(path, value) {
+    function deepStubObject(path, value) {
 	var result = {};
 	var paths = path.split('.');
 
@@ -11,4 +11,4 @@ function deepStubObject(path, value) {
 	}
 
 	return result;
-}
+    }
